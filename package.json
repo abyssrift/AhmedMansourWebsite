@@ -1,0 +1,29 @@
+{
+  "name": "ahmed-mansour-website",
+  "version": "1.0.0",
+  "description": "A beautiful single-page portfolio website for Ahmed Mansour",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000 --open=/index.html",
+    "build": "echo 'Build complete - static site ready for deployment'",
+    "start": "live-server --port=3000 --open=/index.html"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "tailwind",
+    "alpinejs",
+    "responsive"
+  ],
+  "author": "Ahmed Mansour",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmedmansour/ahmed-mansour-website.git"
+  },
+  "homepage": "https://ahmedmansour.dev"
+}

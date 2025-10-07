@@ -1,0 +1,27 @@
+{
+  "name": "Ahmed Mansour - Cassation Lawyer",
+  "short_name": "Ahmed Mansour Law",
+  "description": "Professional legal services specializing in corporate law, legal consultancy, and contract drafting",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#d4af37",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/ahmedmansourlogotransparent.png",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/ahmedmansourlogotransparent.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "legal", "professional"],
+  "lang": "en-US"
+}
+
