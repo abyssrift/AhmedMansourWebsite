@@ -1,7 +1,7 @@
 {
   "name": "ahmed-mansour-website",
   "version": "1.0.0",
-  "description": "A beautiful single-page portfolio website for Ahmed Mansour",
+  "description": "A beautiful single-page portfolio website for Ahmed Ali",
   "main": "index.html",
   "scripts": {
     "dev": "live-server --port=3000 --open=/index.html",
@@ -15,7 +15,7 @@
     "alpinejs",
     "responsive"
   ],
-  "author": "Ahmed Mansour",
+  "author": "Ahmed Ali",
   "license": "MIT",
   "devDependencies": {
     "live-server": "^1.2.2"

@@ -1,6 +1,6 @@
 {
-  "name": "Ahmed Mansour - Cassation Lawyer",
-  "short_name": "Ahmed Mansour Law",
+  "name": "Ahmed Ali - Cassation Lawyer",
+  "short_name": "Ahmed Ali Law",
   "description": "Professional legal services specializing in corporate law, legal consultancy, and contract drafting",
   "start_url": "/",
   "display": "standalone",
@@ -16,7 +16,7 @@
     },
     {
       "src": "/assets/ahmedmansourlogotransparent.png",
-      "sizes": "512x512",
+      "sizes": "512x512",   
       "type": "image/png",
       "purpose": "any maskable"
     }

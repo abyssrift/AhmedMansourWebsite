@@ -1,4 +1,4 @@
-# Ahmed Mansour - Portfolio Website
+# Ahmed Ali - Portfolio Website
 
 A beautiful, modern single-page portfolio website built with HTML, Tailwind CSS, and Alpine.js.
 
@@ -135,7 +135,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-Ahmed Mansour - [@ahmedmansour](https://twitter.com/ahmedmansour) - ahmed@example.com
+Ahmed Ali - [@ahmedmansour](https://twitter.com/ahmedmansour) - ahmed@example.com
 
 Project Link: [https://github.com/ahmedmansour/ahmed-mansour-website](https://github.com/ahmedmansour/ahmed-mansour-website)
 
@@ -148,4 +148,4 @@ Project Link: [https://github.com/ahmedmansour/ahmed-mansour-website](https://gi
 
 ---
 
-Made with ❤️ by Ahmed Mansour
+Made with ❤️ by Ahmed Ali
