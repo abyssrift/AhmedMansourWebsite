@@ -6,7 +6,7 @@
 **Before**: Just a plain image
 **After**: Professional logo with:
 - ✅ Golden glow effect around the image
-- ✅ Text showing "Ahmed Mansour" + "Cassation Lawyer"
+- ✅ Text showing "Ahmed Mansour" + "International Professional Law Firm"
 - ✅ Animated rotating golden ring on hover
 - ✅ Smooth color transitions
 - ✅ Responsive (hides text on mobile)

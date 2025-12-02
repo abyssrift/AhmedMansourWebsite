@@ -56,7 +56,9 @@ img {
 /* Optimize background images */
 .hero-slide,
 .bg-section,
-.bg-dark-section {
+.bg-dark-section,
+.contact-section,
+.biography-section {
   will-change: transform;
   transform: translateZ(0);
 }
@@ -75,6 +77,106 @@ body {
 
 .font-source-sans {
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Logo text adjustments for longer firm name */
+.logo-text {
+  max-width: 280px;
+}
+
+.logo-text > div:first-child {
+  font-size: 1.125rem; /* 18px - slightly smaller than text-xl */
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+
+.logo-text > div:last-child {
+  font-size: 0.65rem; /* Slightly smaller than text-xs for longer text */
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 280px;
+}
+
+/* Hero section heading adjustments */
+#home h1 {
+  word-spacing: 0.05em;
+}
+
+#home h1 .text-gold {
+  display: inline-block;
+  word-break: keep-all;
+}
+
+/* Responsive font size adjustments for longer firm name */
+@media (max-width: 640px) {
+  #home h1 {
+    font-size: 2.25rem; /* 36px */
+    line-height: 1.2;
+  }
+  
+  .logo-text > div:last-child {
+    font-size: 0.6rem;
+    letter-spacing: 0.03em;
+  }
+  
+  /* Footer firm name adjustment for mobile */
+  footer .text-sm.uppercase.tracking-wider {
+    font-size: 0.7rem;
+    line-height: 1.3;
+  }
+  
+  /* Education section adjustment for mobile */
+  #education h3 {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  #home h1 {
+    font-size: 2.75rem; /* 44px */
+    line-height: 1.15;
+  }
+  
+  /* Education section adjustment for tablets */
+  #education h3 {
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  #home h1 {
+    font-size: 3.5rem; /* 56px */
+    line-height: 1.15;
+  }
+}
+
+/* Education section firm name styling */
+#education h3 {
+  letter-spacing: -0.01em;
+  word-spacing: 0.05em;
+}
+
+/* Footer firm name styling */
+footer .text-sm.uppercase.tracking-wider {
+  letter-spacing: 0.08em;
+  line-height: 1.4;
+}
+
+/* Biography section text adjustments */
+.biography-section p {
+  word-spacing: 0.02em;
+  line-height: 1.7;
+}
+
+/* Contact section text adjustments */
+.contact-section p {
+  word-spacing: 0.02em;
+  line-height: 1.7;
 }
 
 /* Custom button styles */
@@ -458,9 +560,24 @@ body {
 }
 
 .bg-dark-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('assets/ahmedmansour2.jpeg');
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
+}
+
+.contact-section {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url('assets/ahmedmansour2.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.biography-section {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), url('assets/ahmedmansour2.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 /* Smooth animations */
@@ -869,7 +986,9 @@ a, button, input, textarea {
   /* Optimize background attachments for mobile */
   .hero-slide,
   .bg-section,
-  .bg-dark-section {
+  .bg-dark-section,
+  .contact-section,
+  .biography-section {
     background-attachment: scroll; /* Better performance on mobile */
   }
   

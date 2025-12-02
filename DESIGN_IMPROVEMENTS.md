@@ -18,7 +18,7 @@ This document details the significant design improvements made to the logo and c
 #### Visual Enhancements
 1. **Dual-Component Design**
    - Logo image with golden glow effect
-   - Text component showing "Ahmed Mansour" and "Cassation Lawyer"
+   - Text component showing "Ahmed Mansour" and "International Professional Law Firm"
    - Professional typography with Playfair Display font
 
 2. **Interactive Effects**
@@ -44,7 +44,7 @@ This document details the significant design improvements made to the logo and c
   </div>
   <div class="logo-text">
     <div class="text-white group-hover:text-gold">Ahmed Mansour</div>
-    <div class="text-gray-400">Cassation Lawyer</div>
+    <div class="text-gray-400">International Professional Law Firm</div>
   </div>
 </a>
 ```
@@ -381,5 +381,5 @@ The website now has:
 
 ---
 
-This transformation elevates the website from functional to exceptional, creating a professional impression that matches the expertise of a Cassation Lawyer with 18+ years of experience.
+This transformation elevates the website from functional to exceptional, creating a professional impression that matches the expertise of an International Professional Law Firm with 18+ years of experience.
 
